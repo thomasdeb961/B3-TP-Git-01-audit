@@ -1,0 +1,30 @@
+{
+  "name": "b3-tp-git-01-audit",
+  "version": "1.0.0",
+  "description": "Application web de gestion du matériel d'une organisation : inventaire des équipements, suivi de leur disponibilité et gestion des utilisateurs qui les empruntent.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyrilMarcq/B3-TP-Git-01-audit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CyrilMarcq/B3-TP-Git-01-audit/issues"
+  },
+  "homepage": "https://github.com/CyrilMarcq/B3-TP-Git-01-audit#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "husky": "^9.1.7"
+  }
+}
